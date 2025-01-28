@@ -7,7 +7,9 @@ int main(){
 
     int arr[n];
     for(int i = 0; i < n; i++){
+        cin >> arr[i];
 
+        if(arr[i] % 2 == 0)
     }
 
     return 0;
