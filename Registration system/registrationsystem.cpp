@@ -13,10 +13,10 @@ int main(){
     for(int i = 0; i < n; i++){
         for(int j = 0; j < n; j++){
             if( i == 0){
-            cout << "OK" << endl;
+                cout << "OK" << endl;
             }
-            else if(arr[i] == arr[i+1]){
-
+            else if(arr[0] == arr[1]){
+                cout << arr[i]+"1" << endl;
             }
         }
     }
