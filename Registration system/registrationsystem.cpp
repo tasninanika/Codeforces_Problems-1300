@@ -11,7 +11,9 @@ int main(){
     }
 
     for(int i = 0; i < n; i++){
-
+        if( i == 0){
+            cout << "OK" << endl;
+        }
     }
 
     return 0;
