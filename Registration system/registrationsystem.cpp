@@ -11,8 +11,13 @@ int main(){
     }
 
     for(int i = 0; i < n; i++){
-        if( i == 0){
+        for(int j = 0; j < n; j++){
+            if( i == 0){
             cout << "OK" << endl;
+            }
+            else if(arr[i] == arr[i+1]){
+
+            }
         }
     }
 
