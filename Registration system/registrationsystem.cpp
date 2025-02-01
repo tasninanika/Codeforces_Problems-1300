@@ -5,6 +5,7 @@ int main(){
     int n;
     cin >> n;
 
+    string s;
     string arr[n];
     for(int i = 0; i < n; i++){
         cin >> s;
