@@ -2,23 +2,35 @@
 using namespace std;
 
 int main(){
-    long long n;
+    int n, s;
     cin >> n;
 
     string arr[n];
     for(int i = 0; i < n; i++){
-        cin >> arr[i];
-    }
+        cin >> s;
 
-    for(int i = 0; i < n; i++){
-        for(int j = 0; j < n-i-1; j++){
-            if( j == 0){
+            if (arr[s] == 0) {
+                arr[s] = 1;
                 cout << "OK" << endl;
             }
-            else if(arr[0] == arr[1]){
-                cout << arr[1]+"1" << endl;
+            else if (i == 1) {
+                if (arr[i] == arr[i - 1]) {
+                    cout << arr[i] + "1" << endl;
+                } else {
+                    cout << "OK" << endl;
+                }
             }
-        }
+            else {
+                if (arr[i] == arr[i - 1] && arr[i] == arr[i - 2]) {
+                    cout << arr[i] + "11" << endl;
+                }
+                else if (arr[i] == arr[i - 1] || arr[i] == arr[i - 2]) {
+                    cout << arr[i] + "1" << endl;
+                }
+                else {
+                    cout << "OK" << endl;
+                }
+            }
     }
 
 
