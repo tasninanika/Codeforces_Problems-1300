@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int n, s;
+    int n;
     cin >> n;
 
     string arr[n];
@@ -14,22 +14,8 @@ int main(){
                 cout << "OK" << endl;
             }
             else if (i == 1) {
-                if (arr[i] == arr[i - 1]) {
-                    cout << arr[i] + "1" << endl;
-                } else {
-                    cout << "OK" << endl;
-                }
-            }
-            else {
-                if (arr[i] == arr[i - 1] && arr[i] == arr[i - 2]) {
-                    cout << arr[i] + "11" << endl;
-                }
-                else if (arr[i] == arr[i - 1] || arr[i] == arr[i - 2]) {
-                    cout << arr[i] + "1" << endl;
-                }
-                else {
-                    cout << "OK" << endl;
-                }
+                cout << s << arr[s] << endl;
+                arr[s]++;
             }
     }
 
