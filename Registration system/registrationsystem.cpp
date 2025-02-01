@@ -14,7 +14,7 @@ int main(){
                 arr[s] = 1;
                 cout << "OK" << endl;
             }
-            else if (i == 1) {
+            else{
                 cout << s << arr[s] << endl;
                 arr[s]++;
             }
