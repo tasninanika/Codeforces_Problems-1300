@@ -6,7 +6,7 @@ int main(){
     cin >> n;
 
     string s;
-    string arr[n];
+    map<string,int> arr;
     for(int i = 0; i < n; i++){
         cin >> s;
 
