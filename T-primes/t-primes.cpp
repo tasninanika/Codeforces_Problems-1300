@@ -8,7 +8,7 @@ int main(){
 
     int x[n];
     for(int i = 0; i < n; i++){
-
+        cin >> x[i];
     }
 
     return 0;
