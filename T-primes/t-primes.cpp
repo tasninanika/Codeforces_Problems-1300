@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main(){
@@ -6,7 +6,9 @@ int main(){
     int arr[1000000] = {0};
     for(int i = 2; i <= 1000000; i++){
         if(arr[i] == 0){
-            for()
+            for(int j = 2; i * j <= 1000000; j++){
+                arr[i*j] = 1;
+            }
         }
     }
 
@@ -20,7 +22,12 @@ int main(){
         if(x == 1){
             cout << "NO" << endl;
         }
-        else if(sqr * sqr = x && sqr)
+        else if(sqr * sqr == x && arr[sqr] == 0){
+            cout << "YES" << endl;
+        }
+        else{
+            cout << "NO" << endl;
+        }
     }
 
     for(int i = 0; i < n; i++){
