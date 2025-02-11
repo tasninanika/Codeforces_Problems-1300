@@ -10,6 +10,9 @@ int main(){
     for(int i = 0; i < n; i++){
         cin >> x;
         sqr = sqrt(x);
+        if(x == 1){
+            cout << "NO" << endl;
+        }
     }
 
     for(int i = 0; i < n; i++){
