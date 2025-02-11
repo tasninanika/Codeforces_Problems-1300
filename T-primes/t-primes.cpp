@@ -3,6 +3,13 @@ using namespace std;
 
 int main(){
 
+    int arr[1000000] = {0};
+    for(int i = 2; i <= 1000000; i++){
+        if(arr[i] == 0){
+            for()
+        }
+    }
+
     int n;
     cin >> n;
 
@@ -13,6 +20,7 @@ int main(){
         if(x == 1){
             cout << "NO" << endl;
         }
+        else if(sqr * sqr = x && sqr)
     }
 
     for(int i = 0; i < n; i++){
