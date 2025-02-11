@@ -6,9 +6,10 @@ int main(){
     int n;
     cin >> n;
 
-    int x[n];
+    long long int x, sqr;
     for(int i = 0; i < n; i++){
-        cin >> x[i];
+        cin >> x;
+        sqr = sqrt(x);
     }
 
     for(int i = 0; i < n; i++){
