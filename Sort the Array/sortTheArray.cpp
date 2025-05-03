@@ -21,7 +21,8 @@ int main() {
     while (r >= 0 && a[r] == sorted_a[r]) r--;
 
     if (l >= r) {
-        cout << "yes\n1 1" << endl;
+        cout << "yes" << endl;
+        cout << "1 1" << endl;
         return 0;
     }
 
