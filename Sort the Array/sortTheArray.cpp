@@ -18,6 +18,7 @@ int main(){
     if(l == n - 1){
         cout << "yes" << endl;
         cout << "1 1" << endl;
+        return 0;
     }
 
     return 0;
