@@ -18,6 +18,8 @@ int main() {
 
     while (l < n && a[l] == sorted_a[l]) l++;
 
+    while (r >= 0 && a[r] == sorted_a[r]) r--;
+
 
     return 0;
 }
