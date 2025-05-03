@@ -16,6 +16,8 @@ int main() {
 
     int l = 0, r = n - 1;
 
+    while (l < n && a[l] == sorted_a[l]) l++;
+
 
     return 0;
 }
