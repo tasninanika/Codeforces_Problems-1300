@@ -20,6 +20,7 @@ int main() {
 
     while (r >= 0 && a[r] == sorted_a[r]) r--;
 
+    if (l >= r) {
 
     return 0;
 }
