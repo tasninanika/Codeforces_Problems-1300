@@ -27,6 +27,8 @@ int main() {
 
     reverse(a.begin() + l, a.begin() + r + 1);
 
+    if (a == sorted_a) {
+        cout << "yes\n" << l + 1 << " " << r + 1 << endl;
 
     return 0;
 }
