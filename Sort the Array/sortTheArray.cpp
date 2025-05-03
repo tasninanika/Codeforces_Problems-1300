@@ -12,5 +12,9 @@ int main(){
 
     int l = 0, r = n - 1;
 
+    while(l < n - 1 && a[l] <= a[l + 1]){
+
+    }
+
     return 0;
 }
