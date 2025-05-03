@@ -12,6 +12,8 @@ int main() {
         sorted_a[i] = a[i];
     }
 
+    sort(sorted_a.begin(), sorted_a.end());
+
 
     return 0;
 }
