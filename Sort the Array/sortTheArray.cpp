@@ -7,6 +7,7 @@ int main() {
 
     vector<int> a(n), sorted_a(n);
 
+    for (int i = 0; i < n; ++i) {
 
     return 0;
 }
