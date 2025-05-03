@@ -21,5 +21,9 @@ int main(){
         return 0;
     }
 
+    while(r > 0 && a[r - 1]){
+        r--;
+    }
+
     return 0;
 }
