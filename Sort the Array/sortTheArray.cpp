@@ -14,6 +14,8 @@ int main() {
 
     sort(sorted_a.begin(), sorted_a.end());
 
+    int l = 0, r = n - 1;
+
 
     return 0;
 }
