@@ -29,6 +29,9 @@ int main() {
 
     if (a == sorted_a) {
         cout << "yes\n" << l + 1 << " " << r + 1 << endl;
+    } else {
+        cout << "no" << endl;
+    }
 
     return 0;
 }
