@@ -25,5 +25,7 @@ int main(){
         r--;
     }
 
+    reverse(a.begin(), a.end() + r + 1);
+
     return 0;
 }
