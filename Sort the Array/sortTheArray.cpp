@@ -15,6 +15,9 @@ int main(){
     while(l < n - 1 && a[l] <= a[l + 1]){
         l++;
     }
+    if(l == n - 1){
+
+    }
 
     return 0;
 }
