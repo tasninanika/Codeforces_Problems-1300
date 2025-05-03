@@ -10,5 +10,7 @@ int main(){
         cin >> a[i];
     }
 
+    int l = 0, r = n - 1;
+
     return 0;
 }
