@@ -29,7 +29,8 @@ int main() {
 
     if (a == sorted_a) {
         cout << "yes\n" << l + 1 << " " << r + 1 << endl;
-    } else {
+    }
+    else {
         cout << "no" << endl;
     }
 
