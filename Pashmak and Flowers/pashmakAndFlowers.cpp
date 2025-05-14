@@ -14,6 +14,10 @@ int main(){
     sort(f, f + n);
     d = f[n - 1] - f[0];
 
+    if(f[0] == f[n - 1]){
+
+    }
+
 
     return 0;
 }
