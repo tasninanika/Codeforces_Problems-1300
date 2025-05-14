@@ -19,7 +19,9 @@ int main(){
     }
     else{
         for(int j = 1; j < n - 1; j++){
+            if(f[j] == f[n - 1]){
 
+            }
         }
     }
 
