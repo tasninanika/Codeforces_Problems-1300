@@ -11,6 +11,8 @@ int main(){
         cin >> f[i];
     }
 
+    sort(f, f + n);
+
 
     return 0;
 }
