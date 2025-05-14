@@ -18,7 +18,9 @@ int main(){
         cout << d << " " << (n - 1) * n / 2 << endl;
     }
     else{
+        for(int j = 1; j < n - 1; j++){
 
+        }
     }
 
 
