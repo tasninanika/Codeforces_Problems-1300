@@ -26,6 +26,8 @@ int main(){
                 b++;
             }
         }
+        cout << d << " " << a * b << endl;
+
     }
 
 
