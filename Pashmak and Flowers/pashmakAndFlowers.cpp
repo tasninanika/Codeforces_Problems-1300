@@ -12,6 +12,7 @@ int main(){
     }
 
     sort(f, f + n);
+    d = f[n - 1] - f[0];
 
 
     return 0;
