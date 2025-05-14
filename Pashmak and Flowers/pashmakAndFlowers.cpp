@@ -23,7 +23,7 @@ int main(){
                 a++;
             }
             else if(f[j] == f[0]){
-
+                b++;
             }
         }
     }
