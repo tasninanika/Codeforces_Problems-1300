@@ -22,6 +22,9 @@ int main(){
             if(f[j] == f[n - 1]){
                 a++;
             }
+            else if(f[j] == f[0]){
+
+            }
         }
     }
 
