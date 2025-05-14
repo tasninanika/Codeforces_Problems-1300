@@ -15,7 +15,7 @@ int main(){
     d = f[n - 1] - f[0];
 
     if(f[0] == f[n - 1]){
-
+        cout << d << " " << (n - 1) * n / 2 << endl;
     }
 
 
