@@ -8,7 +8,7 @@ int main(){
     long long f[n];
     long long a = 1, b = 1;
     for(int i = 0; i < n; i++){
-
+        cin >> f[i];
     }
 
 
