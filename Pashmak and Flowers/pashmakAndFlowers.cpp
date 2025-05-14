@@ -25,6 +25,7 @@ int main(){
             else if(f[j] == f[0]){
                 b++;
             }
+            cout << d << " " << a * b << endl;
         }
     }
 
