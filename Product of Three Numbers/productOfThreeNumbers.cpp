@@ -23,6 +23,7 @@ int main(){
             if(n % i == 0){
                 b = i;
                 n /= i;
+                break;
             }
         }
     }
