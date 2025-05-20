@@ -10,16 +10,16 @@ int main() {
         cin >> n;
 
         long long factors[2];
-        int count = 0;
+        int c = 0;
 
-        for (long long i = 2; i * i < n && count < 2; i++) {
+        for (long long i = 2; i * i < n && c < 2; i++) {
             if (n % i == 0) {
-                factors[count++] = i;
+                factors[c++] = i;
                 n /= i;
             }
         }
 
-        if (count != 2 || n == factors[0] || n == factors[1] || n == 1) {
+        if (c != 2 || n == factors[0] || n == factors[1] || n == 1) {
             cout << "NO" << endl;
         }
         else {
