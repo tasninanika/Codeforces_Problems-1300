@@ -31,6 +31,9 @@ int main(){
             cout << "YES" << endl;
             cout << a << " " << b << " " << n << endl;
         }
+        else{
+            cout << "NO" << endl;
+        }
     }
 
 
