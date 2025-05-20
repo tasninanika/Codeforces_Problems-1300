@@ -22,6 +22,7 @@ int main(){
         for(int i = a + 1; i * i <= n; i++){
             if(n % i == 0){
                 b = i;
+                n /= i;
             }
         }
     }
