@@ -9,6 +9,7 @@ int main(){
     long long b = n / m, c = n % m;
     long long min_friends = (m - c) * (b * (b - 1) / 2) + c * (b * (b + 1) / 2);
 
+    cout << min_friends << " " << max_friends << endl;
 
     return 0;
 }
