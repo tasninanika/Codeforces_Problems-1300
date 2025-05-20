@@ -15,6 +15,7 @@ int main(){
             if(n % i == 0){
                 a = i;
                 n /= i;
+                break;
             }
         }
     }
