@@ -7,6 +7,8 @@ int main(){
 
     long long max_friends = (n - m + 1) * (n - m) / 2;
     long long b = n / m, c = n % m;
+    long long min_friends = (m - c) * (b * (b - 1) / 2) + c * (b * (b + 1) / 2);
+
 
     return 0;
 }
