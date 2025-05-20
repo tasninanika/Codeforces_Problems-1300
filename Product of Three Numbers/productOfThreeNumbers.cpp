@@ -18,6 +18,10 @@ int main(){
                 break;
             }
         }
+
+        for(int i = a + 1; i * i <= n; i++){
+
+        }
     }
 
 
