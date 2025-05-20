@@ -21,7 +21,8 @@ int main() {
 
         if (count != 2 || n == factors[0] || n == factors[1] || n == 1) {
             cout << "NO" << endl;
-        } else {
+        }
+        else {
             cout << "YES" << endl;
             cout << factors[0] << " " << factors[1] << " " << n << endl;
         }
