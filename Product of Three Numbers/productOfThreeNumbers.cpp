@@ -8,6 +8,8 @@ int main(){
     while(t--){
         int n;
         cin >> n;
+
+        int a = -1, b = -1;
     }
 
 
