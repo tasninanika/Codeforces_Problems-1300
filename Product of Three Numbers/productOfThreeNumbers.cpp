@@ -28,7 +28,7 @@ int main(){
         }
 
         if(a != -1 && b != -1 && n > 1 && n != a && n != b){
-
+            cout << "YES" << endl;
         }
     }
 
