@@ -17,6 +17,10 @@ int main(){
 
     sort(x, x + a);
 
+    for(long long i = 0; i < b; i++){
+
+    }
+
 
 
     return 0;
