@@ -17,7 +17,7 @@ int main(){
                     ans = min(ans, n / i);
                 }
                 if(n / i <= k){
-
+                    ans = min(ans, i);
                 }
             }
         }
