@@ -15,6 +15,8 @@ int main(){
         cin >> y[i];
     }
 
+    sort(x, x + a);
+
 
 
     return 0;
