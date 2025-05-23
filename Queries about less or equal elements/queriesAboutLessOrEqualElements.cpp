@@ -20,8 +20,5 @@ int main(){
     for(long long i = 0; i < b; i++){
         cout << upper_bound(x, x + a, y[i]) - x << " ";
     }
-
-
-
     return 0;
 }
