@@ -44,5 +44,8 @@ int main(){
         }
     }
 
+    cout << fixed << setprecision(15) << ans << "\n";
+
+
     return 0;
 }
