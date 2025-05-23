@@ -15,5 +15,20 @@ int main(){
         }
     }
 
+     cin >> s;
+
+    int y = 0, z = 0;
+    for (int i = 0; i < (int)s.size(); i++) {
+        if (s[i] == '+'){
+            y++;
+        }
+        else if (s[i] == '-'){
+            y--;
+        }
+        else{
+            z++;
+        }
+    }
+
     return 0;
 }
