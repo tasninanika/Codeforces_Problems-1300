@@ -18,7 +18,7 @@ int main(){
     sort(x, x + a);
 
     for(long long i = 0; i < b; i++){
-
+        cout << upper_bound(x, x + a, y[i]) - x << " ";
     }
 
 
