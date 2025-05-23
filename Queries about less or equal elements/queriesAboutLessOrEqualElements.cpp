@@ -7,5 +7,9 @@ int main(){
 
     long long x[a], y[b];
 
+    for(long long i = 0; i < a; i++){
+
+    }
+
     return 0;
 }
