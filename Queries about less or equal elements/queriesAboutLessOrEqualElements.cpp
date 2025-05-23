@@ -8,7 +8,7 @@ int main(){
     long long x[a], y[b];
 
     for(long long i = 0; i < a; i++){
-
+        cin >> x[i];
     }
 
     return 0;
