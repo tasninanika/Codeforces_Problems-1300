@@ -3,6 +3,7 @@ using namespace std;
 
 int main(){
     long long a, b;
+    cin >> a >> b;
 
     return 0;
 }
