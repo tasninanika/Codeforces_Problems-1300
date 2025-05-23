@@ -10,6 +10,10 @@ int main(){
         cin >> n >> k;
 
         long long ans = n;
+
+        for(long long i = 1; i * i <= n; i++){
+
+        }
     }
 
     return 0;
