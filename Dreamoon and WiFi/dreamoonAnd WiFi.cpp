@@ -30,5 +30,8 @@ int main(){
         }
     }
 
+    int diff = x - y + z;
+    double ans = 0.0;
+
     return 0;
 }
