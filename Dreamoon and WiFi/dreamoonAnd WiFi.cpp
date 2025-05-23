@@ -33,5 +33,16 @@ int main(){
     int diff = x - y + z;
     double ans = 0.0;
 
+    if (diff >= 0 && diff % 2 == 0) {
+        int k = diff / 2;
+        if (k <= z) {
+            long long res = 1;
+            for (int i = 1; i <= k; i++) {
+                res = res * (z - i + 1) / i;
+            }
+            ans = (double)res / pow(2, z);
+        }
+    }
+
     return 0;
 }
