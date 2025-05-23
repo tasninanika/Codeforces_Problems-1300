@@ -12,7 +12,9 @@ int main(){
         long long ans = n;
 
         for(long long i = 1; i * i <= n; i++){
+            if(n % i == 0){
 
+            }
         }
     }
 
