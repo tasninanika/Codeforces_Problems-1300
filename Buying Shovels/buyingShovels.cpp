@@ -14,7 +14,7 @@ int main(){
         for(long long i = 1; i * i <= n; i++){
             if(n % i == 0){
                 if(i <= k){
-
+                    ans = min(ans, n / i);
                 }
             }
         }
