@@ -11,5 +11,11 @@ int main(){
         cin >> x[i];
     }
 
+    for(long long i = 0; i < b; i++){
+        cin >> y[i];
+    }
+
+
+
     return 0;
 }
