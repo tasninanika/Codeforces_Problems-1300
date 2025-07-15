@@ -29,6 +29,7 @@ int main(){
     }
 
     int MOD = 1000000007;
+    result = (result % MOD + MOD) % MOD;
 
     return 0;
 }
