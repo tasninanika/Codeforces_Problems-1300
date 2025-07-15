@@ -15,6 +15,9 @@ int main(){
     else if(pos == 1){
         result = b;
     }
+    else if(pos == 2){
+
+    }
 
     return 0;
 }
