@@ -25,7 +25,7 @@ int main(){
         result = -b;
     }
     else{
-
+        result = a - b;
     }
 
     return 0;
