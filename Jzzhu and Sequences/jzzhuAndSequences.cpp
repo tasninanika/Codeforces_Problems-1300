@@ -21,6 +21,9 @@ int main(){
     else if(pos == 3){
         result = -a;
     }
+    else if(pos == 4){
+
+    }
 
     return 0;
 }
