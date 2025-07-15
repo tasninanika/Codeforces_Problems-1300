@@ -18,6 +18,7 @@ int main(){
         int i = 0, j = n - 1;
         int moves = 0;
         int last = 0;
+        int turn = 0;
     }
 
 
