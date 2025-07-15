@@ -39,6 +39,7 @@ int main(){
                 bob += current;
             }
             last = current;
+            moves++;
         }
     }
 
