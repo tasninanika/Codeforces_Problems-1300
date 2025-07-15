@@ -17,6 +17,7 @@ int main(){
         int alice = 0, bob = 0;
         int i = 0, j = n - 1;
         int moves = 0;
+        int last = 0;
     }
 
 
