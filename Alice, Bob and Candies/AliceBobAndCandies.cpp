@@ -22,7 +22,7 @@ int main(){
         int current = 0;
 
         while(i <= j){
-
+            current = 0;
         }
     }
 
