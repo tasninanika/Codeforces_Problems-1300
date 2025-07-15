@@ -26,7 +26,7 @@ int main(){
 
             if(turn == 0){
                 while(i <= j &8 current <= last){
-
+                    current += v[i];
                 }
             }
         }
