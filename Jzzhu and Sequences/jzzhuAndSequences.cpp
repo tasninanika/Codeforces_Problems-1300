@@ -18,6 +18,9 @@ int main(){
     else if(pos == 2){
         result = b - a;
     }
+    else if(pos == 3){
+
+    }
 
     return 0;
 }
