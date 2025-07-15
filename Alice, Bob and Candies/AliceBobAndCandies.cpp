@@ -25,7 +25,9 @@ int main(){
             current = 0;
 
             if(turn == 0){
+                while(i <= j &8 current <= last){
 
+                }
             }
         }
     }
