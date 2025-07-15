@@ -42,6 +42,7 @@ int main(){
             moves++;
             turn = 1 - turn;
         }
+        cout << moves << " " << alice << " " << bob << endl;
     }
 
 
