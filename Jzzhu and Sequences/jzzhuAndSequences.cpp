@@ -12,6 +12,9 @@ int main(){
     if(pos == 0){
         result = a;
     }
+    else if(pos == 1){
+
+    }
 
     return 0;
 }
