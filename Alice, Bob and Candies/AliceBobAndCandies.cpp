@@ -33,7 +33,7 @@ int main(){
             }
             else{
                 while(j >= i && current <= last){
-
+                    current += v[j];
                 }
             }
         }
