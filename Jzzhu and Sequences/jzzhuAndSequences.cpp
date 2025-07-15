@@ -16,7 +16,7 @@ int main(){
         result = b;
     }
     else if(pos == 2){
-
+        result = b - a;
     }
 
     return 0;
