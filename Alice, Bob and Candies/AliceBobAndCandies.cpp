@@ -29,6 +29,7 @@ int main(){
                     current += v[i];
                     i++;
                 }
+                alice += current;
             }
         }
     }
