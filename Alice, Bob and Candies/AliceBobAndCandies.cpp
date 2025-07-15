@@ -40,6 +40,7 @@ int main(){
             }
             last = current;
             moves++;
+            turn = 1 - turn;
         }
     }
 
