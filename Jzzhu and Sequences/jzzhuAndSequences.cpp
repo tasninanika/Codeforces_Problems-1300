@@ -24,6 +24,9 @@ int main(){
     else if(pos == 4){
         result = -b;
     }
+    else{
+
+    }
 
     return 0;
 }
