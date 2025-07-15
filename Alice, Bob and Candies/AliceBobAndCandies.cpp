@@ -32,7 +32,9 @@ int main(){
                 alice += current;
             }
             else{
+                while(j >= i && current <= last){
 
+                }
             }
         }
     }
