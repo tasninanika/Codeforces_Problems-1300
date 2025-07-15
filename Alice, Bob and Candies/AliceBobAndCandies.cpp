@@ -20,6 +20,10 @@ int main(){
         int last = 0;
         int turn = 0;
         int current = 0;
+
+        while(i <= j){
+
+        }
     }
 
 
