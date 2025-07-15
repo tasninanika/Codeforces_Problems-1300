@@ -9,5 +9,9 @@ int main(){
 
     int pos = (t - 1) % 6;
 
+    if(pos == 0){
+
+    }
+
     return 0;
 }
