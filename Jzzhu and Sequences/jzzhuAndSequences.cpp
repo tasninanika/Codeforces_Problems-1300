@@ -31,5 +31,7 @@ int main(){
     int MOD = 1000000007;
     result = (result % MOD + MOD) % MOD;
 
+    cout << result << endl;
+
     return 0;
 }
