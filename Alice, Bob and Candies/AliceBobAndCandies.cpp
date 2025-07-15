@@ -36,6 +36,7 @@ int main(){
                     current += v[j];
                     j--;
                 }
+                bob += current;
             }
         }
     }
