@@ -13,7 +13,7 @@ int main(){
         result = a;
     }
     else if(pos == 1){
-
+        result = b;
     }
 
     return 0;
