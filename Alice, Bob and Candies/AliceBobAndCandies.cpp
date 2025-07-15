@@ -19,6 +19,7 @@ int main(){
         int moves = 0;
         int last = 0;
         int turn = 0;
+        int current = 0;
     }
 
 
