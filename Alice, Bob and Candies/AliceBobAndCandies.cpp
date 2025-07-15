@@ -31,6 +31,9 @@ int main(){
                 }
                 alice += current;
             }
+            else{
+
+            }
         }
     }
 
