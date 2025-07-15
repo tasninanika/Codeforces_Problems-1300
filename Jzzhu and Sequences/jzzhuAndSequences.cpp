@@ -7,5 +7,7 @@ int main(){
 
     long long result;
 
+    int pos = (t - 1) % 6;
+
     return 0;
 }
