@@ -28,5 +28,7 @@ int main(){
         result = a - b;
     }
 
+    int MOD = 1000000007;
+
     return 0;
 }
