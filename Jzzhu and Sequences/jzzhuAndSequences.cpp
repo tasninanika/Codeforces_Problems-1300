@@ -19,7 +19,7 @@ int main(){
         result = b - a;
     }
     else if(pos == 3){
-
+        result = -a;
     }
 
     return 0;
