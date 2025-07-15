@@ -23,6 +23,10 @@ int main(){
 
         while(i <= j){
             current = 0;
+
+            if(turn == 0){
+
+            }
         }
     }
 
