@@ -23,7 +23,7 @@ int main(){
                 diff += x;
             }
             else{
-
+                diff -= x;
             }
         }
 
