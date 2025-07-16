@@ -33,6 +33,10 @@ int main(){
             seen[diff] = true;
         }
 
+        if(found){
+
+        }
+
 
     }
 
