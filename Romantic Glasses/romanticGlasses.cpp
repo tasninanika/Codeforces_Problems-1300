@@ -5,11 +5,9 @@ int main(){
     int t;
     cin >> t;
 
-    map<long long, bool> seen;
-    seen[0] = true;
+    while(t--){
 
-    long long diff = 0;
-    bool found = false;
+    }
 
 
     return 0;
