@@ -20,7 +20,7 @@ int main(){
             cin >> x;
 
             if(i % 2 == 0){
-
+                diff += x;
             }
         }
 
