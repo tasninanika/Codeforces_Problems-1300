@@ -9,6 +9,7 @@ int main(){
     seen[0] = true;
 
     long long diff = 0;
+    bool found = false;
 
 
     return 0;
