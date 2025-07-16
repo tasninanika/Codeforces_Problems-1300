@@ -8,6 +8,8 @@ int main(){
     map<long long, bool> seen;
     seen[0] = true;
 
+    long long diff = 0;
+
 
     return 0;
 }
