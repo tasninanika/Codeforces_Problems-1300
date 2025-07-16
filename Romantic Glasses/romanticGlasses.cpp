@@ -15,6 +15,10 @@ int main(){
         long long diff = 0;
         bool found = false;
 
+        for(int i = 1; i <= n; i++){
+
+        }
+
 
     }
 
