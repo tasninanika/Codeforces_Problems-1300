@@ -25,6 +25,10 @@ int main(){
             else{
                 diff -= x;
             }
+
+            if(seen[diff]){
+
+            }
         }
 
 
