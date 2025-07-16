@@ -27,7 +27,7 @@ int main(){
             }
 
             if(seen[diff]){
-
+                found = true;
             }
         }
 
