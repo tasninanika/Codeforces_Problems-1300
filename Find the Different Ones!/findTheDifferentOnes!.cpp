@@ -21,6 +21,8 @@ int main(){
                 v.push_back({i + 1, a[i]});
             }
         }
+
+        int q;
     }
 
     return 0;
