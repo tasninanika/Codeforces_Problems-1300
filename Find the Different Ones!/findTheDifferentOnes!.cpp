@@ -37,6 +37,7 @@ int main(){
                 cout << l << " " << it->first << endl;
             }
         }
+        cout << endl;
     }
 
     return 0;
