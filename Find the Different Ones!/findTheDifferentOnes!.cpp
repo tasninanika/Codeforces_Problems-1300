@@ -31,7 +31,7 @@ int main(){
 
             auto it = upper_bound(v.begin(), v.end(), make_pair(l, INT_MAX));
             if(it == v.end() || it->first > r){
-
+                cout << "-1 -1" << endl;
             }
         }
     }
