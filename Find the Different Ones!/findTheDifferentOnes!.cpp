@@ -28,6 +28,8 @@ int main(){
         while(q--){
             int l, r;
             cin >> l >> r;
+
+            auto it = upper_bound(v.begin(), v.end(), make_pair(l, INT_MAX));
         }
     }
 
