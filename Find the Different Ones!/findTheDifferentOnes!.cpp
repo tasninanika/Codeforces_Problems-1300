@@ -13,6 +13,8 @@ int main(){
         for(int i = 0; i < n; i++){
             cin >> a[i];
         }
+
+        vector<pair<int,int>> v;
     }
 
     return 0;
