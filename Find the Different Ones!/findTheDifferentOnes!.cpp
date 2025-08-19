@@ -16,6 +16,9 @@ int main(){
 
         vector<pair<int,int>> v;
         v.push_back({1, a[0]});
+        for(int i = 1; i < n; i++){
+
+        }
     }
 
     return 0;
