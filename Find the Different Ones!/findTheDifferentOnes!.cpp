@@ -33,6 +33,9 @@ int main(){
             if(it == v.end() || it->first > r){
                 cout << "-1 -1" << endl;
             }
+            else{
+
+            }
         }
     }
 
