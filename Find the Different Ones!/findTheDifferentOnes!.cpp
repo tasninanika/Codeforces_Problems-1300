@@ -23,6 +23,7 @@ int main(){
         }
 
         int q;
+        cin >> q;
     }
 
     return 0;
