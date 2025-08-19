@@ -30,6 +30,9 @@ int main(){
             cin >> l >> r;
 
             auto it = upper_bound(v.begin(), v.end(), make_pair(l, INT_MAX));
+            if(it == v.end() || it->first > r){
+
+            }
         }
     }
 
