@@ -34,7 +34,7 @@ int main(){
                 cout << "-1 -1" << endl;
             }
             else{
-
+                cout << l << " " << it->first << endl;
             }
         }
     }
