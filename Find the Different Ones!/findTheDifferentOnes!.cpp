@@ -15,6 +15,7 @@ int main(){
         }
 
         vector<pair<int,int>> v;
+        v.push_back({1, a[0]});
     }
 
     return 0;
