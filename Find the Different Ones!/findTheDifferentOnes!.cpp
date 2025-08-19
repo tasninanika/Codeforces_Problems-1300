@@ -26,7 +26,7 @@ int main(){
         cin >> q;
 
         while(q--){
-
+            int l, r;
         }
     }
 
