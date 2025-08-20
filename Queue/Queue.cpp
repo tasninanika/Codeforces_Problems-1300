@@ -7,7 +7,7 @@ int main(){
 
     vector<long long> t(n);
     for(int i = 0; i < n; i++){
-
+        cin >> t[i];
     }
 
 
