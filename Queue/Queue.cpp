@@ -18,6 +18,7 @@ int main(){
     for(int i = 0; i < n; i++){
         if(current_time <= t[i]){
             c++;
+            current_time += t[i];
         }
     }
 
