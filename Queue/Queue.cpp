@@ -10,6 +10,8 @@ int main(){
         cin >> t[i];
     }
 
+    sort(t.begin(), t.end());
+
 
     return 0;
 }
