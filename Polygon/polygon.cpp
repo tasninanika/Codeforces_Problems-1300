@@ -1,37 +1,28 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
-int main(){
+int main() {
     int t;
     cin >> t;
 
-    while(t--){
+    while (t--) {
         int n;
         cin >> n;
-
         vector<string> grid(n);
-        for(int i = 0; i < n; i++){
-            cin >> grid[i];
+        for (int i = 0; i < n; i++) cin >> grid[i];
 
-        bool ok = true;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 if (grid[i][j] == '1') {
-                    if (i == n - 1 || j == n - 1)
-                        continue;
-                    if (grid[i+1][j] == '0' && grid[i][j+1] == '0') {
-                        ok = false;
+                    if (i != n - 1 && j != n - 1 && grid[i+1][j] == '0' && grid[i][j+1] == '0') {
+                        cout << "NO\n";
+                        goto next_case;
                     }
                 }
             }
         }
-        if(ok){
-            cout << "YES" << endl;
-        }
-        else{
-            cout << "NO" << endl;
-        }
+        cout << "YES\n";
+        next_case:;
     }
     return 0;
 }
-
