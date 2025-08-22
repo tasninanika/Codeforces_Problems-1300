@@ -32,6 +32,9 @@ int main(){
         if(max_sum >= total){
             cout << "NO" << endl;
         }
+        else{
+
+        }
     }
 
 
