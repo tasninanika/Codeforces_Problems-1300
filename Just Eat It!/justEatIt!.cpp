@@ -28,9 +28,12 @@ int main(){
             }
         }
 
-        if(sum == maxx && maxCount == k)
-            cout << "YES\n";
-        else cout << "NO\n";
+        if(sum == maxx && maxCount == k){
+            cout << "YES" << endl;
+        }
+        else{
+            cout << "NO" << endl;
+        }
     }
     return 0;
 }
