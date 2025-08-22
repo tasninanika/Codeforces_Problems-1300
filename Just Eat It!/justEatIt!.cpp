@@ -28,6 +28,10 @@ int main(){
                 cur = 0;
             }
         }
+
+        if(max_sum >= total){
+            cout << "NO" << endl;
+        }
     }
 
 
