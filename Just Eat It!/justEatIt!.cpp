@@ -16,6 +16,8 @@ int main(){
             cin >> a[i];
             total += a[i];
         }
+
+        long long max_sum = LLONG_MIN;
     }
 
 
