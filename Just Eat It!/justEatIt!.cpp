@@ -11,6 +11,10 @@ int main(){
 
         vector<long long> a(k);
         long long total = 0;
+
+        for(int i = 0; i < k; i++){
+
+        }
     }
 
 
