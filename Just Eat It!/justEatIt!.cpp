@@ -9,34 +9,28 @@ int main(){
         int k;
         cin >> k;
 
-        vector<long long> a(k);
-        long long total = 0;
+        long long sum = 0, sum1 = 0, c = 0;
+        long long maxx = -2147483647, maxCount = 0;
+        vector<long long> a(k+1);
 
-        for(int i = 0; i < k; i++){
+        for(int i = 1; i <= k; i++){
             cin >> a[i];
-            total += a[i];
-        }
-
-        long long max_sum = LLONG_MIN;
-        long long cur = 0;
-
-        cur = 0;
-        for(int i = 0; i < k - 1; i++){
-            cur += a[i];
-            max_sum = max(max_sum, cur);
-            if(cur < 0){
-                cur = 0;
+            sum += a[i];
+            sum1 += a[i];
+            c++;
+            if (sum1 <= 0) {
+                sum1 = 0;
+                cnt = 0;
+            }
+            if (maxx < sum1) {
+                maxCount = c;
+                maxx = sum1;
             }
         }
 
-        if(max_sum >= total){
-            cout << "NO" << endl;
-        }
-        else{
-            cout << "YES" << endl;
-        }
+        if(sum == maxx && maxCount == k)
+            cout << "YES\n";
+        else cout << "NO\n";
     }
-
-
     return 0;
 }
