@@ -25,7 +25,7 @@ int main(){
             cur += a[i];
             max_sum = max(max_sum, cur);
             if(cur < 0){
-
+                cur = 0;
             }
         }
     }
