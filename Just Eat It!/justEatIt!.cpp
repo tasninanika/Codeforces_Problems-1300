@@ -14,6 +14,7 @@ int main(){
 
         for(int i = 0; i < k; i++){
             cin >> a[i];
+            total += a[i];
         }
     }
 
