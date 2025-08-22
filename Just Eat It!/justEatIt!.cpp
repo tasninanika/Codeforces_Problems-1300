@@ -21,6 +21,9 @@ int main(){
         long long cur = 0;
 
         cur = 0;
+        for(int i = 0; i < k - 1; i++){
+
+        }
     }
 
 
