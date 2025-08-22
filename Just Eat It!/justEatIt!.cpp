@@ -18,6 +18,7 @@ int main(){
         }
 
         long long max_sum = LLONG_MIN;
+        long long cur = 0;
     }
 
 
