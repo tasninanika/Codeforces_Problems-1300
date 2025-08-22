@@ -24,6 +24,9 @@ int main(){
         for(int i = 0; i < k - 1; i++){
             cur += a[i];
             max_sum = max(max_sum, cur);
+            if(cur < 0){
+
+            }
         }
     }
 
