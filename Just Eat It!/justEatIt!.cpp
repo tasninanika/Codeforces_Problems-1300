@@ -22,7 +22,7 @@ int main(){
 
         cur = 0;
         for(int i = 0; i < k - 1; i++){
-
+            cur += a[i];
         }
     }
 
