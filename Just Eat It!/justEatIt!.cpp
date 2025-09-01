@@ -20,7 +20,7 @@ int main(){
             c++;
             if (sum1 <= 0) {
                 sum1 = 0;
-                cnt = 0;
+                c = 0;
             }
             if (maxx < sum1) {
                 maxCount = c;
