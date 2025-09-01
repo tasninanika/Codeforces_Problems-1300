@@ -12,6 +12,7 @@ int main(){
 
     for(int i = 0; i < m; i++){
         long long x, y;
+        cin >> x >> y;
     }
 
 
