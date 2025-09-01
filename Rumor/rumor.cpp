@@ -15,6 +15,7 @@ int main(){
         cin >> x >> y;
         x--;
         y--;
+        long long t = min(a[x], a[y]);
     }
 
 
