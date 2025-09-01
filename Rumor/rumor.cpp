@@ -20,6 +20,9 @@ int main(){
         a[y] = 0;
     }
 
+    long long res = 0;
+
+
 
     return 0;
 }
