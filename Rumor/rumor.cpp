@@ -17,6 +17,7 @@ int main(){
         y--;
         long long t = min(a[x], a[y]);
         a[x] = t;
+        a[y] = 0;
     }
 
 
