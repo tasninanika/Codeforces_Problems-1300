@@ -25,6 +25,8 @@ int main(){
         res += a[i];
     }
 
+    cout << res << endl;
+
 
 
     return 0;
