@@ -1,39 +1,44 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-typedef long long ll;
 
-int solve(){
-	ll n,m;
-	cin >> n >> m;
+const int N = 100005;
+vector<int> g[N];
+bool visited[N];
+long long cost[N];
 
-	ll a[n];
-	for(ll i = 0; i < n; i++)
-        cin >> a[i];
+long long dfs(int u) {
+    visited[u] = true;
+    long long mn = cost[u];
+    for (int v : g[u]) {
+        if (!visited[v]) {
+            mn = min(mn, dfs(v));
+        }
+    }
+    return mn;
+}
 
-	for(ll i = 0; i < m; i++){
-		ll x, y;
+int main() {
+    int n, m;
+    cin >> n >> m;
+
+    for (int i = 1; i <= n; i++) {
+        cin >> cost[i];
+    }
+
+    for (int i = 0; i < m; i++) {
+        int x, y;
         cin >> x >> y;
-		x--;
-		y--;
-		ll t = min(a[x],a[y]);
-		a[x] = t;
-		a[y] = 0;
-	}
-	ll res = 0;
-	for(ll i = 0; i < n; i++)
-        res += a[i];
+        g[x].push_back(y);
+        g[y].push_back(x);
+    }
 
-	cout << res << endl;
+    long long ans = 0;
+    for (int i = 1; i <= n; i++) {
+        if (!visited[i]) {
+            ans += dfs(i);
+        }
+    }
 
-	return 0;
+    cout << ans << endl;
+    return 0;
 }
-
-int main(){
-	ll t=1;
-
-	while(t--)
-        solve();
-
-	return 0;
-}
-
