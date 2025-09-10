@@ -2,9 +2,7 @@
 using namespace std;
 using ll = long long;
 
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+int main(){
     int t;
     cin >> t;
 
@@ -31,7 +29,7 @@ int main() {
                 ans += c[p];
                 ++p;
             }
-            else {
+            else{
                 ans += c[ki];
             }
         }
