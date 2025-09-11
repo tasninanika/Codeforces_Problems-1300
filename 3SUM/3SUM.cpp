@@ -43,6 +43,9 @@ int main(){
                 }
                 if (found) break;
             }
+            if (!found) {
+                cout << "NO" << endl;
+            }
         }
     }
 
