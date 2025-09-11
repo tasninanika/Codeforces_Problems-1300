@@ -25,6 +25,9 @@ int main(){
                     vals.push_back(cnt[d][j]);
                 }
             }
+
+            int sz = vals.size();
+            int found = 0;
         }
     }
 
