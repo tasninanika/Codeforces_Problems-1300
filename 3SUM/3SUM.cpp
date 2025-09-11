@@ -13,6 +13,8 @@ int main(){
         for(int i = 0; i < n; i++){
             long long x;
             cin >> x;
+
+            int r = x % 10;
         }
     }
 
