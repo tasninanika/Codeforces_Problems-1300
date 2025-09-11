@@ -12,6 +12,7 @@ int main(){
         vector<int> cnt[10];
         for(int i = 0; i < n; i++){
             long long x;
+            cin >> x;
         }
     }
 
