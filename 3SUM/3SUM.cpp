@@ -10,6 +10,9 @@ int main(){
         cin >> n;
 
         vector<int> cnt[10];
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
 
