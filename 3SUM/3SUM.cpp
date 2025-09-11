@@ -18,6 +18,13 @@ int main(){
             if((int)cnt[r].size() < 3){
                 cnt[r].push_back(r);
             }
+
+            vector<int> vals;
+            for (int d = 0; d < 10; d++) {
+                for (int j = 0; j < (int)cnt[d].size(); j++) {
+                    vals.push_back(cnt[d][j]);
+                }
+            }
         }
     }
 
