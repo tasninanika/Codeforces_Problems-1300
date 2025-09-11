@@ -28,6 +28,21 @@ int main(){
 
             int sz = vals.size();
             int found = 0;
+
+            for (int i = 0; i < sz; i++) {
+                for (int j = i + 1; j < sz; j++) {
+                    for (int k = j + 1; k < sz; k++) {
+                        int sum = vals[i] + vals[j] + vals[k];
+                        if (sum % 10 == 3) {
+                            cout << "YES" << endl;
+                            found = 1;
+                            break;
+                        }
+                    }
+                    if (found) break;
+                }
+                if (found) break;
+            }
         }
     }
 
