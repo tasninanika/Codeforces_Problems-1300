@@ -15,6 +15,9 @@ int main(){
             cin >> x;
 
             int r = x % 10;
+            if((int)cnt[r].size() < 3){
+                cnt[r].push_back(r);
+            }
         }
     }
 
