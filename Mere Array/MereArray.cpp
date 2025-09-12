@@ -30,7 +30,7 @@ int main(){
             }
         }
 
-        if (ok == 1)
+        if(ok == 1)
             cout << "YES" << endl;
         else
             cout << "NO" << endl;
