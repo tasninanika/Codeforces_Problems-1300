@@ -20,6 +20,8 @@ int main(){
                 good.push_back(i);
             }
         }
+
+        long long ans = 0;
     }
 
     return 0;
