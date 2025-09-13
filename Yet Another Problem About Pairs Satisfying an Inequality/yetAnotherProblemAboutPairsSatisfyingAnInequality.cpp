@@ -17,7 +17,7 @@ int main(){
         vector<int> good;
         for(int i = 1; i <= n; i++){
             if(a[i] < i){
-
+                good.push_back(i);
             }
         }
     }
