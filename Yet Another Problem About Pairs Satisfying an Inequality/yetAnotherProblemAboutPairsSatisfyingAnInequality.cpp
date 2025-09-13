@@ -13,6 +13,8 @@ int main(){
         for(int i = 1; i <= n; i++){
             cin >> a[i];
         }
+
+        vector<int> good;
     }
 
     return 0;
