@@ -15,6 +15,9 @@ int main(){
         }
 
         vector<int> good;
+        for(int i = 1; i <= n; i++){
+
+        }
     }
 
     return 0;
