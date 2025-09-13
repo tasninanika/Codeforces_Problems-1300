@@ -25,6 +25,7 @@ int main(){
         for(int j = 1; j <= n; j++){
             if(a[j] < j){
                 int left = a[j] + 1;
+                int right = j - 1;
             }
         }
 
