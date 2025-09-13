@@ -29,6 +29,7 @@ int main(){
 
                 if(left <= right){
                     int cnt = upper_bound(valid.begin(), valid.end(), right) - lower_bound(valid.begin(), valid.end(), left);
+                    ans += cnt;
                 }
             }
         }
