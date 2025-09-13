@@ -22,6 +22,7 @@ int main(){
         }
 
         long long ans = 0;
+        int k = good.size();
     }
 
     return 0;
