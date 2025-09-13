@@ -28,7 +28,8 @@ int main(){
                 int right = j - 1;
 
                 if(left <= right){
-
+                    int cnt = upper_bound(valid.begin(), valid.end(), right)
+                              - lower_bound(valid.begin(), valid.end(), left);
                 }
             }
         }
