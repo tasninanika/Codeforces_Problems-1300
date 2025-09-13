@@ -25,6 +25,8 @@ int main(){
         int k = good.size();
 
         ans = 1LL * k * (k - 1) / 2;
+
+        cout << ans << endl;
     }
 
     return 0;
