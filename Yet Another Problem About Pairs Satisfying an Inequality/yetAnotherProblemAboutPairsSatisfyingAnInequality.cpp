@@ -22,9 +22,9 @@ int main(){
         }
 
         long long ans = 0;
-        int k = good.size();
+        for(int j = 1; j <= n; j++){
 
-        ans = 1LL * k * (k - 1) / 2;
+        }
 
         cout << ans << endl;
     }
