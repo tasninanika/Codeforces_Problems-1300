@@ -1,41 +1,32 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-int main(){
-    int t;
-    cin >> t;
+void solve() {
+	int n;
+	cin >> n;
 
-    while(t--){
-        int n;
-        cin >> n;
-
-        vector<long long> a(n+1);
-        for(int i = 1; i <= n; i++){
-            cin >> a[i];
+	int a[n];
+	for (int i = 0; i < n; i++) {
+		cin >> a[i];
+	}
+	long long res = 0;
+	vector<int> v;
+	for (int i = 0; i < n; i++) {
+		if (a[i] >= i+1){
+            continue;
         }
+		res += (long long)(lower_bound(v.begin(), v.end(), a[i]) - v.begin());
+		v.push_back(i+1);
+	}
+	cout << res << endl;
+}
 
-        vector<int> valid;
-        for(int i = 1; i <= n; i++){
-            if(a[i] < i){
-                valid.push_back(i);
-            }
-        }
+int main() {
+	int t;
+	cin >> t;
 
-        long long ans = 0;
-        for(int j = 1; j <= n; j++){
-            if(a[j] < j){
-                int left = a[j] + 1;
-                int right = j - 1;
-
-                if(left <= right){
-                    int cnt = upper_bound(valid.begin(), valid.end(), right) - lower_bound(valid.begin(), valid.end(), left);
-                    ans += cnt;
-                }
-            }
-        }
-
-        cout << ans << endl;
-    }
-
+    for(int i = 1; i <= t; i++)
+        solve();
     return 0;
 }
+
