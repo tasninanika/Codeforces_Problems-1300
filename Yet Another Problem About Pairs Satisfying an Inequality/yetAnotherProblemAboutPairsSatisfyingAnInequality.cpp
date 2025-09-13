@@ -26,6 +26,10 @@ int main(){
             if(a[j] < j){
                 int left = a[j] + 1;
                 int right = j - 1;
+
+                if(left <= right){
+
+                }
             }
         }
 
