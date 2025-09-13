@@ -14,10 +14,10 @@ int main(){
             cin >> a[i];
         }
 
-        vector<int> good;
+        vector<int> valid;
         for(int i = 1; i <= n; i++){
             if(a[i] < i){
-                good.push_back(i);
+                valid.push_back(i);
             }
         }
 
