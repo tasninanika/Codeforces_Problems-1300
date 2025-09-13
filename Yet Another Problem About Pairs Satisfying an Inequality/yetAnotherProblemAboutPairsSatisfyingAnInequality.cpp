@@ -10,6 +10,9 @@ int main(){
         cin >> n;
 
         vector<long long> a(n+1);
+        for(int i = 1; i <= n; i++){
+
+        }
     }
 
     return 0;
