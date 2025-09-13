@@ -23,6 +23,8 @@ int main(){
 
         long long ans = 0;
         int k = good.size();
+
+        ans = 1LL * k * (k - 1) / 2;
     }
 
     return 0;
