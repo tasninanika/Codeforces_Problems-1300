@@ -23,6 +23,7 @@ int main(){
             ans += mp[key1][key2];
             mp[v[i] % x][key2]++;
         }
+        cout << ans << endl;
     }
 
 
