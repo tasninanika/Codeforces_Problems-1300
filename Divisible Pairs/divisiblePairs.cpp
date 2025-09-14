@@ -16,6 +16,10 @@ int main(){
 
         map<long long, map<long long, long long>> mp;
         long long ans = 0;
+
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
 
