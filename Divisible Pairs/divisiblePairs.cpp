@@ -18,7 +18,7 @@ int main(){
         long long ans = 0;
 
         for(int i = 0; i < n; i++){
-
+            long long key1 = (x - v[i] % x) % x;
         }
     }
 
