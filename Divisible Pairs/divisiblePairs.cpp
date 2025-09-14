@@ -15,6 +15,7 @@ int main(){
         }
 
         map<long long, map<long long, long long>> mp;
+        long long ans = 0;
     }
 
 
