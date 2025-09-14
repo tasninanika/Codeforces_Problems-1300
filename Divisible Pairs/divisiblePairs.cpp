@@ -21,6 +21,7 @@ int main(){
             long long key1 = (x - v[i] % x) % x;
             long long key2 = v[i] % y;
             ans += mp[key1][key2];
+            mp[v[i] % x][key2]++;
         }
     }
 
